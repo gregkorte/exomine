@@ -1,0 +1,816 @@
+{
+  "governors": [
+    {
+      "id": 1,
+      "name": "Zara Kallan",
+      "colonyId": 3,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 2,
+      "name": "Kael Orion",
+      "colonyId": 4,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 3,
+      "name": "Lana Solis",
+      "colonyId": 1,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 4,
+      "name": "Ezra Nova",
+      "colonyId": 5,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 5,
+      "name": "Nia Argos",
+      "colonyId": 2,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 6,
+      "name": "Astor Voss",
+      "colonyId": 1,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 7,
+      "name": "Lyra Raine",
+      "colonyId": 4,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 8,
+      "name": "Draco Kyros",
+      "colonyId": 3,
+      "is_active": false,
+      "is_alive": false
+    },
+    {
+      "id": 9,
+      "name": "Vera Solara",
+      "colonyId": 2,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 10,
+      "name": "Liora Nova",
+      "colonyId": 1,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 11,
+      "name": "Zion Remnar",
+      "colonyId": 3,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 12,
+      "name": "Pierce Valen",
+      "colonyId": 1,
+      "is_active": true,
+      "is_alive": true
+    },
+    {
+      "id": 13,
+      "name": "Draavo Satomi",
+      "is_active": true,
+      "is_alive": true
+    }
+  ],
+  "minerals": [
+    {
+      "id": 1,
+      "name": "Xenite",
+      "value": 30,
+      "yield": 2
+    },
+    {
+      "id": 2,
+      "name": "Luminarite",
+      "value": 30,
+      "yield": 2
+    },
+    {
+      "id": 3,
+      "name": "Stellacite",
+      "value": 1,
+      "yield": 10
+    },
+    {
+      "id": 4,
+      "name": "Nebulite",
+      "value": 1,
+      "yield": 10
+    },
+    {
+      "id": 5,
+      "name": "Astroquartz",
+      "value": 1,
+      "yield": 10
+    },
+    {
+      "id": 6,
+      "name": "Galaxium",
+      "value": 2,
+      "yield": 5
+    },
+    {
+      "id": 7,
+      "name": "Celestite",
+      "value": 2,
+      "yield": 5
+    },
+    {
+      "id": 8,
+      "name": "Meteorium",
+      "value": 5,
+      "yield": 2
+    },
+    {
+      "id": 9,
+      "name": "Stargem",
+      "value": 5,
+      "yield": 2
+    },
+    {
+      "id": 10,
+      "name": "Cosmolite",
+      "value": 10,
+      "yield": 1
+    },
+    {
+      "id": 11,
+      "name": "Aetherite",
+      "value": 10,
+      "yield": 1
+    },
+    {
+      "id": 12,
+      "name": "Orbithyst",
+      "value": 15,
+      "yield": 1
+    },
+    {
+      "id": 13,
+      "name": "Nebulium",
+      "value": 15,
+      "yield": 1
+    },
+    {
+      "id": 14,
+      "name": "Quasarite",
+      "value": 20,
+      "yield": 1
+    },
+    {
+      "id": 15,
+      "name": "Stellite",
+      "value": 50,
+      "yield": 1
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Warforge Alpha",
+      "is_active": true,
+      "security": 30,
+      "civilians": 100,
+      "workers": 80,
+      "maxPopulation": 1200,
+      "is_facility": true
+    },
+    {
+      "id": 2,
+      "name": "Starhold Delta",
+      "is_active": true,
+      "security": 30,
+      "civilians": 100,
+      "workers": 70,
+      "maxPopulation": 1200,
+      "is_facility": true
+    },
+    {
+      "id": 3,
+      "name": "Battlespire Gamma",
+      "is_active": true,
+      "security": 32,
+      "civilians": 100,
+      "workers": 90,
+      "maxPopulation": 1200,
+      "is_facility": true
+    },
+    {
+      "id": 4,
+      "name": "Ravenspire Omega",
+      "is_active": true,
+      "security": 30,
+      "civilians": 100,
+      "workers": 50,
+      "maxPopulation": 1200,
+      "is_facility": true
+    }
+  ],
+  "colonies": [
+    {
+      "id": 1,
+      "name": "Terra Nova",
+      "security": 3,
+      "population": 10000,
+      "maxPopulation": 50000,
+      "is_colony": true
+    },
+    {
+      "id": 2,
+      "name": "Nexus Prime",
+      "security": 23,
+      "population": 10000,
+      "maxPopulation": 50000,
+      "is_colony": true
+    },
+    {
+      "id": 3,
+      "name": "Astraia",
+      "security": 15,
+      "population": 10000,
+      "maxPopulation": 50000,
+      "is_colony": true
+    },
+    {
+      "id": 4,
+      "name": "Elysium",
+      "security": 23,
+      "population": 10000,
+      "maxPopulation": 50000,
+      "is_colony": true
+    },
+    {
+      "id": 5,
+      "name": "Stellara",
+      "security": 30,
+      "population": 10000,
+      "maxPopulation": 50000,
+      "is_colony": true
+    }
+  ],
+  "colonyInventory": [
+    {
+      "id": 1,
+      "colonyId": 3,
+      "mineralId": 6,
+      "colony_stock": 100
+    },
+    {
+      "id": 2,
+      "colonyId": 2,
+      "mineralId": 10,
+      "colony_stock": 200
+    },
+    {
+      "id": 3,
+      "colonyId": 1,
+      "mineralId": 1,
+      "colony_stock": 190
+    },
+    {
+      "id": 4,
+      "colonyId": 4,
+      "mineralId": 9,
+      "colony_stock": 200
+    },
+    {
+      "id": 5,
+      "colonyId": 5,
+      "mineralId": 2,
+      "colony_stock": 200
+    },
+    {
+      "id": 6,
+      "colonyId": 3,
+      "mineralId": 8,
+      "colony_stock": 200
+    },
+    {
+      "id": 7,
+      "colonyId": 1,
+      "mineralId": 3,
+      "colony_stock": 200
+    },
+    {
+      "id": 8,
+      "colonyId": 2,
+      "mineralId": 12,
+      "colony_stock": 200
+    },
+    {
+      "id": 9,
+      "colonyId": 4,
+      "mineralId": 11,
+      "colony_stock": 200
+    },
+    {
+      "id": 10,
+      "colonyId": 5,
+      "mineralId": 7,
+      "colony_stock": 200
+    },
+    {
+      "id": 11,
+      "colonyId": 3,
+      "mineralId": 5,
+      "colony_stock": 200
+    },
+    {
+      "id": 12,
+      "colonyId": 2,
+      "mineralId": 4,
+      "colony_stock": 200
+    },
+    {
+      "id": 13,
+      "colonyId": 1,
+      "mineralId": 14,
+      "colony_stock": 200
+    },
+    {
+      "id": 14,
+      "colonyId": 4,
+      "mineralId": 13,
+      "colony_stock": 200
+    },
+    {
+      "id": 15,
+      "colonyId": 5,
+      "mineralId": 15,
+      "colony_stock": 200
+    },
+    {
+      "id": 16,
+      "colonyId": 3,
+      "mineralId": 2,
+      "colony_stock": 200
+    },
+    {
+      "id": 17,
+      "colonyId": 2,
+      "mineralId": 6,
+      "colony_stock": 200
+    },
+    {
+      "id": 18,
+      "colonyId": 1,
+      "mineralId": 10,
+      "colony_stock": 200
+    },
+    {
+      "id": 19,
+      "colonyId": 4,
+      "mineralId": 1,
+      "colony_stock": 200
+    },
+    {
+      "id": 20,
+      "colonyId": 5,
+      "mineralId": 9,
+      "colony_stock": 200
+    },
+    {
+      "colonyId": 3,
+      "mineralId": 7,
+      "colony_stock": 200,
+      "id": 21
+    },
+    {
+      "colonyId": 5,
+      "mineralId": 13,
+      "colony_stock": 200,
+      "id": 22
+    },
+    {
+      "colonyId": 5,
+      "mineralId": 5,
+      "colony_stock": 200,
+      "id": 23
+    },
+    {
+      "colonyId": 5,
+      "mineralId": 4,
+      "colony_stock": 200,
+      "id": 24
+    },
+    {
+      "colonyId": 1,
+      "mineralId": 15,
+      "colony_stock": 200,
+      "id": 25
+    },
+    {
+      "colonyId": 1,
+      "mineralId": 11,
+      "facilityMineralId": 4,
+      "colony_stock": 200,
+      "id": 26
+    },
+    {
+      "colonyId": 5,
+      "mineralId": 11,
+      "facilityMineralId": 4,
+      "colony_stock": 200,
+      "id": 27
+    },
+    {
+      "colonyId": 5,
+      "mineralId": 6,
+      "facilityMineralId": 12,
+      "colony_stock": 200,
+      "id": 28
+    },
+    {
+      "colonyId": 1,
+      "mineralId": 6,
+      "facilityMineralId": 12,
+      "colony_stock": 200,
+      "id": 29
+    },
+    {
+      "colonyId": 4,
+      "mineralId": 7,
+      "facilityMineralId": 8,
+      "colony_stock": 200,
+      "id": 30
+    },
+    {
+      "colonyId": 1,
+      "mineralId": 7,
+      "facilityMineralId": 1,
+      "colony_stock": 200,
+      "id": 31
+    },
+    {
+      "colonyId": 3,
+      "mineralId": 10,
+      "facilityMineralId": 16,
+      "colony_stock": 200,
+      "id": 32
+    },
+    {
+      "colonyId": 3,
+      "mineralId": 4,
+      "facilityMineralId": 5,
+      "colony_stock": 200,
+      "id": 33
+    },
+    {
+      "colonyId": 4,
+      "mineralId": 6,
+      "facilityMineralId": 12,
+      "colony_stock": 200,
+      "id": 34
+    },
+    {
+      "colonyId": 1,
+      "mineralId": 5,
+      "facilityMineralId": 3,
+      "colony_stock": 200,
+      "id": 35
+    }
+  ],
+  "facilityInventory": [
+    {
+      "id": 1,
+      "facilityId": 1,
+      "mineralId": 7,
+      "facility_stock": 207,
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "facilityId": 4,
+      "mineralId": 15,
+      "facility_stock": 200,
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "facilityId": 3,
+      "mineralId": 5,
+      "facility_stock": 237,
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "facilityId": 2,
+      "mineralId": 11,
+      "facility_stock": 214,
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "facilityId": 1,
+      "mineralId": 4,
+      "facility_stock": 206,
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "facilityId": 4,
+      "mineralId": 8,
+      "facility_stock": 200,
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "facilityId": 3,
+      "mineralId": 12,
+      "facility_stock": 243,
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "facilityId": 2,
+      "mineralId": 7,
+      "facility_stock": 222,
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "facilityId": 1,
+      "mineralId": 13,
+      "facility_stock": 219,
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "facilityId": 4,
+      "mineralId": 2,
+      "facility_stock": 200,
+      "is_active": true
+    },
+    {
+      "id": 11,
+      "facilityId": 3,
+      "mineralId": 3,
+      "facility_stock": 237,
+      "is_active": true
+    },
+    {
+      "id": 12,
+      "facilityId": 2,
+      "mineralId": 6,
+      "facility_stock": 221,
+      "is_active": true
+    },
+    {
+      "id": 13,
+      "facilityId": 1,
+      "mineralId": 9,
+      "facility_stock": 213,
+      "is_active": true
+    },
+    {
+      "id": 14,
+      "facilityId": 4,
+      "mineralId": 14,
+      "facility_stock": 200,
+      "is_active": true
+    },
+    {
+      "id": 15,
+      "facilityId": 3,
+      "mineralId": 1,
+      "facility_stock": 243,
+      "is_active": true
+    },
+    {
+      "id": 16,
+      "facilityId": 2,
+      "mineralId": 10,
+      "facility_stock": 225,
+      "is_active": true
+    }
+  ],
+  "pirates": [
+    {
+      "id": 1,
+      "factionName": "Crimson Corsairs",
+      "numForces": 85,
+      "hatedColonyId": 3,
+      "favoredMineralId": 7,
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "factionName": "Shadow Raiders",
+      "numForces": 52,
+      "hatedColonyId": 4,
+      "favoredMineralId": 12,
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "factionName": "Stormtide Syndicate",
+      "numForces": 76,
+      "hatedColonyId": 1,
+      "favoredMineralId": 3,
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "factionName": "Dread Marauders",
+      "numForces": 98,
+      "hatedColonyId": 5,
+      "favoredMineralId": 9,
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "factionName": "Void Raiders",
+      "numForces": 68,
+      "hatedColonyId": 2,
+      "favoredMineralId": 6,
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "factionName": "Blackbeard's Crew",
+      "numForces": 41,
+      "hatedColonyId": 3,
+      "favoredMineralId": 10,
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "factionName": "Savage Scoundrels",
+      "numForces": 56,
+      "hatedColonyId": 1,
+      "favoredMineralId": 13,
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "factionName": "Skull and Crossbones",
+      "numForces": 94,
+      "hatedColonyId": 4,
+      "favoredMineralId": 2,
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "factionName": "Cutthroat Buccaneers",
+      "numForces": 72,
+      "hatedColonyId": 5,
+      "favoredMineralId": 11,
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "factionName": "Jolly Raiders",
+      "numForces": 47,
+      "hatedColonyId": 2,
+      "favoredMineralId": 15,
+      "is_active": true
+    },
+    {
+      "id": 11,
+      "factionName": "Redbeard's Armada",
+      "numForces": 63,
+      "hatedColonyId": 4,
+      "favoredMineralId": 8,
+      "is_active": true
+    },
+    {
+      "id": 12,
+      "factionName": "Bloodthirsty Buccaneers",
+      "numForces": 81,
+      "hatedColonyId": 1,
+      "favoredMineralId": 5,
+      "is_active": true
+    },
+    {
+      "id": 13,
+      "factionName": "Raging Raiders",
+      "numForces": 50,
+      "hatedColonyId": 3,
+      "favoredMineralId": 14,
+      "is_active": true
+    },
+    {
+      "id": 14,
+      "factionName": "Scurvy Scoundrels",
+      "numForces": 75,
+      "hatedColonyId": 2,
+      "favoredMineralId": 1,
+      "is_active": true
+    },
+    {
+      "id": 15,
+      "factionName": "Razorblade Raiders",
+      "numForces": 103,
+      "hatedColonyId": 5,
+      "favoredMineralId": 4,
+      "is_active": true
+    },
+    {
+      "id": 16,
+      "factionName": "Burning Buccaneers",
+      "numForces": 59,
+      "hatedColonyId": 1,
+      "favoredMineralId": 10,
+      "is_active": true
+    },
+    {
+      "id": 17,
+      "factionName": "Deadshot Corsairs",
+      "numForces": 88,
+      "hatedColonyId": 4,
+      "favoredMineralId": 7,
+      "is_active": true
+    },
+    {
+      "id": 18,
+      "factionName": "Iron Skulls",
+      "numForces": 44,
+      "hatedColonyId": 3,
+      "favoredMineralId": 13,
+      "is_active": true
+    },
+    {
+      "id": 19,
+      "factionName": "Ruthless Raiders",
+      "numForces": 97,
+      "hatedColonyId": 2,
+      "favoredMineralId": 6,
+      "is_active": true
+    },
+    {
+      "id": 20,
+      "factionName": "Darkwater Marauders",
+      "numForces": 65,
+      "hatedColonyId": 5,
+      "favoredMineralId": 9,
+      "is_active": true
+    },
+    {
+      "id": 21,
+      "factionName": "Skullcrusher Syndicate",
+      "numForces": 80,
+      "hatedColonyId": 1,
+      "favoredMineralId": 3,
+      "is_active": true
+    },
+    {
+      "id": 22,
+      "factionName": "Serpent Raiders",
+      "numForces": 49,
+      "hatedColonyId": 4,
+      "favoredMineralId": 12,
+      "is_active": true
+    },
+    {
+      "id": 23,
+      "factionName": "Savage Sharks",
+      "numForces": 71,
+      "hatedColonyId": 3,
+      "favoredMineralId": 15,
+      "is_active": true
+    },
+    {
+      "id": 24,
+      "factionName": "Terror Tide",
+      "numForces": 55,
+      "hatedColonyId": 2,
+      "favoredMineralId": 8,
+      "is_active": true
+    },
+    {
+      "id": 25,
+      "factionName": "Venomous Vipers",
+      "numForces": 84,
+      "hatedColonyId": 1,
+      "favoredMineralId": 11,
+      "is_active": true
+    }
+  ],
+  "pirateInventory": [
+    {
+      "id": 1,
+      "pirateId": 1,
+      "mineralId": 1,
+      "pirate_stock": 200
+    }
+  ]
+}

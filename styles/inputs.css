@@ -1,0 +1,60 @@
+/* select input */
+
+select {
+  margin-top: 10px
+}
+
+select, option {
+  left: 0;
+  right: 0;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-left: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+option:disabled {
+  color: rgb(95, 38, 38)
+}
+
+
+/* buttons */
+
+button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background: radial-gradient( 100% 100% at 100% 0%, #abacaf 0%, cornflowerblue 100% );
+  box-shadow: 0px 2px 4px rgba(25, 35, 66, 0.315), 0px 3px 5px -1px rgb(25 35 66 / 30%), inset 0px -3px 0px rgb(32 65 111 / 50%);
+  padding: 0 8px;
+  border-radius: 4px;
+  color: #000;
+  height: 17px;
+  font-size: 10px;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease,transform 0.15s ease;
+
+}
+button:hover {
+    background: radial-gradient( 100% 100% at 100% 0%, #c0c2c5 0%, rgb(88, 139, 233) 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 3px 5px -1px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(49, 104, 207);
+    /* transform: translateY(-2px); */
+}
+button:active{
+    box-shadow: inset 0px 3px 7px cornflowerblue;
+    transform: translateY(1px);
+}
+
+
+
+/* number input */
+
+input[type=number] {
+  border-radius: 3px;
+  font-size: 10px;
+}
