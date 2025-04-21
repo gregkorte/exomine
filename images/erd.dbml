@@ -1,0 +1,58 @@
+Table Governor {
+  id int [pk]
+  name varchar
+  colonyId int [ref: > Colony.id]
+  is_active bool
+  is_alive bool
+}
+
+Table Mineral {
+  id int [pk]
+  name varchar
+  value int
+  yield int
+}
+
+Table Facility {
+  id int [pk]
+  name varchar
+  is_active bool
+  security int
+  civilians int
+  workers int
+  maxPopulation int
+  is_facility bool
+}
+
+Table Colony {
+  id int [pk]
+  name varchar
+  security int
+  population int
+  maxPopulation int
+  is_colony bool
+}
+
+Table ColonyInventory {
+  id int [pk]
+  colonyId int [ref: > Colony.id]
+  mineralId int [ref: > Mineral.id]
+  colony_stock int
+}
+
+Table FacilityInventory {
+  id int [pk]
+  facilityId int [ref: > Facility.id]
+  mineralId int [ref: > Mineral.id]
+  facility_stock int
+  is_active bool
+}
+
+Table Pirates {
+  id int [pk]
+  factionName varchar
+  numForces int
+  hatedColonyId int [ref: > Colony.id]
+  favoredMineralId int [ref: > Mineral.id]
+  is_active bool
+}
